@@ -1,0 +1,111 @@
+/* Set the font family, margin, padding, and background image for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+ /* Styling for the header section */
+header,
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #333;
+  background-color: palevioletred;
+}
+
+ /* Remove the margin for the h1 element */
+h1 {
+  margin: 0;
+}
+
+/* Styling for the main content section */
+main {
+  min-width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  flex: 1 0 auto;
+}
+
+/* Display the form elements in a column layout */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.topping-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.topping-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.topping-item label {
+  margin-right: 10px;
+}
+
+/* Add margin to the label elements */
+label {
+  margin-top: 10px;
+}
+
+/* Styling for text input, email input, textarea, and select elements */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  max-width: 470;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 3px;
+  border: 1px solid #911111;
+}
+
+/* Add margin to checkbox inputs */
+input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #3399ff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+ /* Styling for the hover state of the submit button */
+input[type="submit"]:hover {
+  background-color: #2277cc;
+}
+
+/* Styling for the footer section */
+footer {
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  border: 2px solid #333;
+  margin-top: auto;
+}
